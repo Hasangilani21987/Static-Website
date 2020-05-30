@@ -1,0 +1,76 @@
+.navbar-brand {
+    margin-left: 10%;
+}
+
+.navbar {
+    background-color: transparent !important;
+}
+
+.navbar-text {
+    margin-right: 18% !important;
+    
+}
+
+.nav-link {
+    color: #FFF !important;
+}
+
+.nav-link:hover {
+    color: red !important;
+}
+
+.btn {
+    background-color: rgb(251,32,86);
+    border-radius: 20px !important;
+    color: #FFF !important;
+    font-size: 14px !important;
+    box-shadow: none !important;
+}
+
+.bg1{
+    background-image: url('../images/bg_img3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg_content {
+    margin-top: 10%;
+    padding-bottom: 15%;
+}
+
+.card {
+    border: none !important;
+}
+
+.card-title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.card-text {
+    text-align: center;
+    font-size: 14px;
+}
+
+.card_view {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media screen and (max-width: 991px) {
+    .card2 {
+        /* margin-left: 18% !important; */
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+}
+
+@media screen and (max-width: 765px) {
+    .social-div {
+        padding-bottom: 25%;
+    }
+}

@@ -1,0 +1,86 @@
+.navbar-brand {
+    margin-left: 10%;
+}
+
+.navbar {
+    background-color: transparent !important;
+}
+
+.navbar-text {
+    margin-right: 18% !important;
+    
+}
+
+.nav-link {
+    color: #FFF !important;
+}
+
+.nav-link:hover {
+    color: red !important;
+}
+
+.btn {
+    background-color: rgb(251,32,86);
+    border-radius: 20px !important;
+    color: #FFF !important;
+    font-size: 14px !important;
+    box-shadow: none !important;
+}
+
+.bg_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-top: 7%;
+}
+
+.bg1{
+    background-image: url('./images/home.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 15%;
+}
+
+.container-fluid {
+    background-color: rgb(244,245,249);
+}
+
+@media screen and (max-width: 464px) {
+    .quote {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 776px)  {
+    .card {
+        margin-top: 8%;
+        margin-left: 3%;
+    }
+}
+
+.bg2 {
+    background-color: #FFF;
+    padding-bottom: 8%;
+}
+
+.card {
+    border: none !important;
+}
+
+.bg3 {
+    background-image: url('./images/bg_img2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 14%;
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 765px) {
+    .social-div {
+        padding-bottom: 25%;
+    }
+}

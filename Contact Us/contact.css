@@ -1,0 +1,96 @@
+.navbar-brand {
+    margin-left: 10%;
+}
+
+.navbar {
+    background-color: transparent !important;
+}
+
+.navbar-text {
+    margin-right: 18% !important;
+    
+}
+
+.nav-link {
+    color: #FFF !important;
+}
+
+.nav-link:hover {
+    color: red !important;
+}
+
+.btn {
+    background-color: rgb(251,32,86);
+    border-radius: 20px !important;
+    color: #FFF !important;
+    font-size: 14px !important;
+    box-shadow: none !important;
+}
+
+.bg1{
+    background-image: url('../images/contact\ \(2\).jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg_content {
+    margin-top: 10%;
+    padding-bottom: 15%;
+}
+
+.form {
+    margin-top: 10%;
+}
+
+.name {
+    background-color: #FBFAFA !important;
+    border-color: #F6F5F5 !important;
+    border-top: #F6F5F5 !important;
+    border-left: #F6F5F5 !important;
+    border-width: 0 !important;
+    width: 90% !important;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    opacity: 1;
+    color: #B9B5B3 !important; 
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    opacity: 1;
+    color: #B9B5B3 !important;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    opacity: 1;
+    color: #B9B5B3 !important;
+  }
+
+  .email {
+    margin-top: 4%;
+    background-color: #FBFAFA !important;
+    border-color: #F6F5F5 !important;
+    border-top: #F6F5F5 !important;
+    border-left: #F6F5F5 !important;
+    border-width: 0 !important;
+    width: 90% !important;
+  }
+
+  .txtarea {
+    margin-top: 4%;
+    background-color: #FBFAFA !important;
+    border-color: #F6F5F5 !important;
+    border-top: #F6F5F5 !important;
+    border-left: #F6F5F5 !important;
+  }
+
+  .txtarea {
+    width: 90% !important;
+  }
+  
+  @media screen and (max-width: 765px) {
+    .social-div {
+        padding-bottom: 25%;
+    }
+}

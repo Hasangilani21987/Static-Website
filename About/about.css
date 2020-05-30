@@ -1,0 +1,44 @@
+.navbar-brand {
+    margin-left: 10%;
+}
+
+.navbar {
+    background-color: transparent !important;
+}
+
+.navbar-text {
+    margin-right: 18% !important;
+    
+}
+
+.nav-link {
+    color: #FFF !important;
+}
+
+.nav-link:hover {
+    color: red !important;
+}
+
+.btn {
+    background-color: rgb(251,32,86);
+    border-radius: 20px !important;
+    color: #FFF !important;
+    font-size: 14px !important;
+    box-shadow: none !important;
+}
+
+.bg1{
+    background-image: url('../images/contact.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg_content {
+    margin-top: 10%;
+    padding-bottom: 15%;
+}
+
+.txt {
+    font-size: 12px;
+}
